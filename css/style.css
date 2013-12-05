@@ -11,26 +11,28 @@
 	margin: 0 20px 0 0;	
 }
 
-.CodeMirror {
-	border: 1px solid #888; 
-	width: 49%; 
-	float:left;
-	border-radius: 2px;
-}
-
-#css + .CodeMirror{
-	width: 20%;
-}
-
-#html + .CodeMirror{
+#css{
+	height: 300px;
+	width: 30%;
 	position: absolute;
-	width: 79%;
-	margin-left: 21%;
+}
+
+#html{
+	height: 300px;
+	float: left;
+	position: absolute;
+	width: 69%;
+	margin-left: 31%;
 	overflow: hidden;
 }
 
+#editors{
+	height: 380px;
+}
+
 #render{
-	float: left;
+	position: absolute;
+	top: 380px;
 	width: 100%;
 	height: 90%;
 }
