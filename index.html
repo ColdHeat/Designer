@@ -55,7 +55,7 @@
 	    $('#render').height($(window).height());
 	});
 
-    cs.sgetSession().on('change', function(e) {
+    css.getSession().on('change', function(e) {
 		var content = '<style>'+css.getValue()+'</style>' + html.getValue();
 		var iframe = document.getElementById('render');
 		iframe.contentWindow.document.open('text/html', 'replace');
